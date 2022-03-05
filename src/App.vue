@@ -1,28 +1,69 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app id="app">
+    <v-main>
+      <div class="wrapper">
+        <h1 class="title-color">ShiYu's Self-introduction-site</h1>
+        <my-header class="header" />
+        <router-view class="content-1" />
+        <my-footer class="footer" />
+      </div>
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MyHeader from "./components/MyHeader";
+import MyFooter from "./components/MyFooter";
 
 export default {
-  name: 'App',
+  name: "app",
+  props: {
+    msg: String,
+  },
   components: {
-    HelloWorld
-  }
-}
+    MyHeader,
+    MyFooter,
+  },
+};
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  background: linear-gradient(rgb(187, 0, 234), rgb(38, 0, 255));
+}
+
+.wrapper {
+  font-size: 20px;
+  line-height: 1.5;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-color {
+  color: rgb(245, 245, 245);
+}
+
+header {
+  height: 50px;
+}
+
+.content-1 {
+  flex: 3;
+}
+
+footer {
+  height: 30px;
+  background: linear-gradient(rgb(187, 0, 234), rgb(38, 0, 255));
 }
 </style>
