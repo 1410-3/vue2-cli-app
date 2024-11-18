@@ -1,13 +1,12 @@
 <template>
   <div class="home-page">
-    <div>
+    <!-- <div>
       <img src="../assets/picture.png" alt="写真" />
-    </div>
+    </div> -->
     <div>
       <p class="font-family">
-        確実に運が良い人間です！
-        <br />夢は <br />「できるだけ多くの人の心を癒したり、
-        <br />心に響くようなことを伝える人」 <br />になることです！！
+        VueCLIでポートフォリオを作成しました。 <br />
+        ごゆっくりどうぞ。
       </p>
     </div>
   </div>

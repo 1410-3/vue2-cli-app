@@ -1,15 +1,15 @@
 <template>
   <div>
-    <h1 class="about-title">About ShiYu</h1>
+    <h1 class="about-title">About 1410-3</h1>
     <div class="about">
       <h3 class="about-content">Birthday:</h3>
-      <h3 class="about-content">10-11</h3>
+      <h3 class="about-content">1989-10-11</h3>
       <h3 class="about-content">Living:</h3>
-      <h3 class="about-content">Western Japan</h3>
+      <h3 class="about-content">Hiroshima or Kanagawa</h3>
       <h3 class="about-content">Important:</h3>
-      <h3 class="about-content">Psychological Safety</h3>
+      <h3 class="about-content">Psychological Safety and Simplicity</h3>
       <h3 class="about-content">Favorite Lang:</h3>
-      <h3 class="about-content">Python</h3>
+      <h3 class="about-content">Ruby</h3>
     </div>
   </div>
 </template>

@@ -11,7 +11,7 @@ export default {
 </script>
 <style scoped>
 .my-footer-color {
-  background: rgb(38, 0, 255);
+  background: linear-gradient(rgb(240, 128, 255), rgb(128, 160, 255));
 }
 .font-color {
   color: rgb(245, 245, 245);
