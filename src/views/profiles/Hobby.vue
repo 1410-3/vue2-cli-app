@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import HobbyElement from "../../components/hobbies/HobbyElement";
+import HobbyElement from "../../components/Hobbies/HobbyElement";
 export default {
   name: "HobbyPage",
   components: {

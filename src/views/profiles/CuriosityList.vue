@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import CuriosityElement from "../../components/curiosity/list";
+import CuriosityElement from "../../components/Curiosity/List";
 export default {
   name: "CuriositylistPage",
   components: {
@@ -35,7 +35,7 @@ export default {
 
 <style scoped>
 .curiosity {
-  background: linear-gradient(rgb(187, 0, 234), rgb(38, 0, 255));
+ background: linear-gradient(rgb(240, 128, 255), rgb(128, 160, 255));
 }
 
 .curiosity-list-title {

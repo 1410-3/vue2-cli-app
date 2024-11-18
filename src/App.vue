@@ -2,7 +2,7 @@
   <v-app id="app">
     <v-main>
       <div class="wrapper">
-        <h1 class="title-color">ShiYu's Self-introduction-site</h1>
+        <h1 class="title-color">Hi there!! 1410-3's Self-introduction-site</h1>
         <my-header class="header" />
         <router-view class="content-1" />
         <my-footer class="footer" />
@@ -34,7 +34,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background: linear-gradient(rgb(187, 0, 234), rgb(38, 0, 255));
+  background: linear-gradient(rgb(240, 128, 255), rgb(128, 160, 255));
 }
 
 .wrapper {
@@ -60,10 +60,5 @@ header {
 
 .content-1 {
   flex: 3;
-}
-
-footer {
-  height: 30px;
-  background: linear-gradient(rgb(187, 0, 234), rgb(38, 0, 255));
 }
 </style>
